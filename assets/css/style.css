@@ -30,6 +30,7 @@ a:hover {
 }
 #playlist{
     display: flex;
+    justify-content: space-evenly;
     margin: 10px auto;
     flex-wrap: wrap;
     width: 70%;
