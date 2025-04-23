@@ -114,8 +114,7 @@ a:hover {
     justify-content: center;
     background-color: rgb(211, 199, 199);
     width: 440px;
-    margin-top: 15px;
-    margin-left: 100px;
+    margin: 15px auto;
     padding: 15px;
 }
 #formulario {
@@ -125,6 +124,7 @@ a:hover {
     width: 400px;
     background-color: #FFFFFF;
     padding: 5px 10px;
+    border-radius: 8px;
     input{
         width: 400px;
         height: 30px;
