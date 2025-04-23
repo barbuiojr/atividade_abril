@@ -19,6 +19,7 @@
         <div id="caixa-formulario">
             <form action="">
                 <div id="formulario">
+                    <h1>Dados Pessoais</h1><br>
                     <?php
                     echo campoInput("Nome Completo","text", "nome", "nome", "");
                     echo campoInput("Email","email", "email", "email", "seuemail@provedor.com");
@@ -27,7 +28,7 @@
                     <br><h1>Informações da Reserva</h1><br>
                     <?php
                     echo campoInput("Data de checkin","date", "data-checkin", "data-checkin", "");
-                    $quartos = array('Standard', 'Luxo', 'Econômico', 'Família');
+                    $quartos = array('Standard', 'Luxo', 'Super Luxo', 'Econômico', 'Família', 'Casal', 'Cobertura','Flat');
                     echo campoSelect("Tipo de quarto", $quartos);
                     echo campoInput("Data de checkout","date", "data-checkout", "data-checkout", "");
                     echo campoInput("Número de hóspedes","number", "qtd-hospedes", "qtd-hospedes", "");
